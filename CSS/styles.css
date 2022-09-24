@@ -1,11 +1,138 @@
+#document {
+    width: 80vw;
+    max-width: 1500px;
+    min-width: 150px;
+    margin: 0 auto;
+}
+
+body {
+    background: rgb(0,203,255);
+    background: radial-gradient(circle, rgba(0,203,255,1) 0%, rgba(252,70,175,1) 100%);
+}
+
 header{
-    color: #039aff;
+    color: #ffffff;
     font-family: Verdana;
-    font-size: 36px;
-    font-style: italic;
+    font-size: 40px;
+    font-style: oblique;
     font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    color: blue;
+    font-family: Verdana;
+    font-size: 14px;
+}
+
+.nav1 {
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: rgb(0, 170, 237);
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    background-color: rgba(0,170,237,0.5);
+
 }
   
 img {
-    width: 200px;
+    width: 300px;
+    height: 400px;
+}
+
+p {
+font-family: Verdana;
+font-size: 16px;
+color:black;
+font-weight: normal;
+}
+
+.yev {
+    color:#0028cad8;
+    font-family: Verdana;
+    font-size: 36px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.pbdb {
+    font-family: Verdana;
+    font-size: 19px;
+    font-style: normal;
+    color: black;
+}
+
+.how {
+    font-family: Verdana;
+    font-size: 19px;
+    font-style: normal;
+    color: black;
+}
+
+.mywork {
+    font-family: Verdana;
+    font-size: 28px;
+    font-style: oblique;
+    font-weight: bold;
+    color: black;
+}
+
+li {
+    font-family: Verdana;
+    font-size: 16PX;
+    font-weight: normal;
+    color: black;
+}
+
+.name {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(27, 124, 221);
+    border-width: 5px;
+    overflow: hidden;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.skills {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(255, 50, 50);
+    border-width: 5px;
+    overflow: hidden;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.hobbies {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(201, 40, 155);
+    border-width: 5px;
+    overflow: hidden;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+main {
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(40, 201, 104);
+    border-width: 5px;
+    overflow: hidden;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
 }

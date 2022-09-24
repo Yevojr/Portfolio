@@ -4,27 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Portfolio Yevgeny</title>
     <link rel="stylesheet" href = "CSS/styles.css">
 </head>
+
 <body>
-    <header> Welkom op mijn website.</header>
-    <section class="card">
-      <h1>Yevgeny Stephens</h1>
-      <section>
-        <img  src="http://www.smashbros.com/images/og/kirby.jpg" alt="Kirby">
-      </section>
-      <section class="skills">
-        <h2>Skills</h2>
+  <div id = "document">
+  <header> Welkom op mijn website.</header>
+
+  <nav>
+    <a class = "nav1" href = "#name">Over mij</a>
+    <a class = "nav1" href = "#skills">Skills</a>
+    <a class = "nav1" href = "#hobbies">Hobby's</a>
+    <a class = "nav1" href = "#mywork">Wat ik heb gemaakt</a>
+  </nav>
     
-        <ul>
-          <li>HTML & CSS</li>
-          <li>Javascript</li>
-          <li>Gaming</li>
-            <li>Koken</li>
-          <li>Talen : Engels, Nederlands, Papiaments</li>
-          <li>Slapen</li>
-        </ul>
-      </section>  
+  <section class = "name"> 
+    <h1 class = "yev" id = "name">Yevgeny Stephens</h1>
+    <h3>Hoi, ik ben Yev.</h3>
+
+    <section class = "me">
+      <img src = "Img/pic of me.jpeg" alt = "Yev">
+    </section>
+
+    <p>Mijn volledige naam is Yevgeny Stephens, geboren op 14 januari 2000 in Willemstad, Cura<span>&ccedil;</span>au.
+    Ik woon sinds 2019 in rotterdam, Nederland, en ik studeer nu Creative Media & Game Technologies (CMGT) bij de Hogeschool Rotterdam (HR).
+    </p>
+      
+  </section>
+  
+  <section class = "skills">
+      <h2 id = "skills">Skills</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>Javascript</li>
+        <li>Talen : Engels, Nederlands, Papiaments</li>
+      </ul>
+  </section>  
+  
+  <section class = "hobbies">
+      <h2 id = "hobbies">Hobby's</h2>
+      <ul>
+        <li>Gamen</li>
+        <li>Koken</li>
+        <li>Gymmen</li>
+        <li>Boeken lezen</li>
+      </ul>
+
+  </section>
+
+  <main>
+    <h2 class = "mywork" id = "mywork">Wat ik heb gemaakt</h2>
+    <nav>
+      <a></a>
+
+    </nav>
+    <section class = "pbdb">
+      <h3 id = "pbdb">CLE1 - Sprint 1: Pizza Buff Delivery Buddy (P.B.D.B.)</h3>
+      
+      <p>In de eerste Sprint vam CLE1 moesten we een robot maken voor een andere klas genoot. Ik heb mijn klasgenoot, Yaran, eerst geinterviewd en daarna kwam ik met de idee een robot te maken voor hem
+        Deze robot heet: "Pizza Buff Delivery Buddy". Het is een kleine robot die 2 aspecten van Yaran's persoonlijkheid combineert: zijn liefde voor pizza rn RPG spellen.
+      </p>
+      
+      <section>
+        <img src = "Img/Robot pic 3.jpeg" alt = "P.B.D.B. Robot">
+      </section>
+
+      <h3 class = "how">Hoe werkt P.B.D.B.?</h3>
+      
+      <p>De P.B.D.B. robot maakt gebruik van de "Cricket Cricuit Playground" micro-controller. de robot heeft 2 willetjes om te kunnen bewegen.
+        De robot luistert of er een luid geluid afgaat, bijvoorbeeld het klappen van je handen, en dan gaat hij bewegen. Hij rijdt vooruit voor 3 seconden.
+        Als je je pizzastuk heb gepakt, dan scant de lichtsensor voor een bepaald niveau licht, en als het hoger is dan een bepaald niveau komt er een klein geluidje uit de speaker.
+      </p>
+
+    </section>
+    </main>
+
+    <footer>
+      <span>&copy; Yevgeny Stephens 2022</span>
+    </footer>
+  </div>
+
 </body>
 </html>
