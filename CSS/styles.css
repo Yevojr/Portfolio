@@ -7,13 +7,13 @@
 
 body {
     background: rgb(0,203,255);
-    background: radial-gradient(circle, rgba(0,203,255,1) 0%, rgba(252,70,175,1) 100%);
+    
 }
 
 header{
-    color: #ffffff;
+    color: #000000;
     font-family: Verdana;
-    font-size: 40px;
+    font-size: 42px;
     font-style: oblique;
     font-weight: bold;
     padding: 10px;
@@ -29,7 +29,13 @@ nav {
 a {
     color: blue;
     font-family: Verdana;
-    font-size: 14px;
+    font-size: 16px;
+}
+
+.nav1mom{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .nav1 {
@@ -51,7 +57,7 @@ img {
 
 p {
 font-family: Verdana;
-font-size: 16px;
+font-size: 20px;
 color:black;
 font-weight: normal;
 }
@@ -59,28 +65,36 @@ font-weight: normal;
 .yev {
     color:#0028cad8;
     font-family: Verdana;
-    font-size: 36px;
+    font-size: 38px;
     font-style: oblique;
     font-weight: bold;
 }
 
 .pbdb {
     font-family: Verdana;
-    font-size: 19px;
+    font-size: 21px;
     font-style: normal;
     color: black;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(40, 201, 104);
+    border-width: 5px;
+    overflow: hidden;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
 }
 
 .how {
     font-family: Verdana;
-    font-size: 19px;
+    font-size: 20px;
     font-style: normal;
     color: black;
 }
 
 .mywork {
     font-family: Verdana;
-    font-size: 28px;
+    font-size: 30px;
     font-style: oblique;
     font-weight: bold;
     color: black;
@@ -88,7 +102,7 @@ font-weight: normal;
 
 li {
     font-family: Verdana;
-    font-size: 16PX;
+    font-size: 18PX;
     font-weight: normal;
     color: black;
 }
@@ -126,13 +140,22 @@ li {
     padding: 10px;
 }
 
-main {
+.birdbot {
+    font-family: Verdana;
+    font-size: 21px;
+    font-style: normal;
+    color: black;
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(40, 201, 104);
+    border-color: rgb(218, 221, 14);
     border-width: 5px;
     overflow: hidden;
     margin: 10px;
     margin-top: 20px;
     padding: 10px;
+}
+
+.yevacc2{
+    display: flex;
+    flex-direction: column;
 }
