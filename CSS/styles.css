@@ -47,6 +47,7 @@ a {
     border-width: 5px;
     border-radius: 10px;
     background-color: rgba(0,170,237,0.5);
+    
 
 }
   
@@ -155,7 +156,76 @@ li {
     padding: 10px;
 }
 
+.birdbot2{
+    font-family: Verdana;
+    font-size: 21px;
+    font-style: normal;
+    color: black;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(9, 158, 94);
+    border-width: 5px;
+    overflow: hidden;
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
 .yevacc2{
     display: flex;
     flex-direction: column;
+}
+
+.formField{
+    font-family: Verdana;
+    font-size: 21px;
+    font-style: normal;
+    color: black;
+}
+
+button{
+    font-family: Verdana;
+    font-size: 19px;
+    background-color: rgb(10, 7, 155);
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(14, 196, 36);
+    color: black;
+}
+
+button:active{
+    background-color: red;
+    color: lightblue;
+}
+
+input[type=text], select, input[type=date], input[type=email]{
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 75%;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: vertical;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+h1.thankyou{
+    font-size: 55px;
+}
+
+input:invalid{
+    border: solid 3px red;
+}
+
+input:valid{
+    border: solid 3px rgb(5, 243, 255);
 }

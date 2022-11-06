@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/pcstyles.css">
+</head>
+<body>
+    <header>Contact me here</header>
+
+    <nav class="nav1mom">
+        <a class = "nav1" href = "index.html">About me</a>
+        <a class = "nav1" href = "skillshobby.html">Skills en interests</a>
+        <a class = "nav1" href = "opdrachten.html">My accomplishements</a>
+        <a class = "nav1" href = "contact.html">Contact me</a>
+    </nav>
+
+    <main>
+        <form class="contact" action="thanks.html">
+            <div class="formField">
+                <label for="firstName">First name</label>
+                <input type="text" id="firstName" name = "firstName" placeholder="Fill in your first name" required>
+            </div>
+
+            <div class="formField">
+                <label for="">Last name</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Fill in your last name">
+            </div>
+
+            <div class="formField">
+                <label for="birthdate">Birthday</label>
+                <input type="date" id="birthdate" name="birthdate">
+            </div>
+            
+            <div class="formField">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            
+            <div class="formField">
+                <label for="contactType">Reason for contact</label>
+                <select name="contactType" id="contactType">
+                    <option value="question">General question</option>
+                    <option value="idea">I want to suggest an idea</option>
+                    <option value="tip">I have some critisisms</option>
+                </select>
+            </div>
+
+            <div class="formField">
+                <label for="textfield">Type message here</label>
+                
+                <textarea name="textfield" id="textfield" placeholder="Type here..." cols="30" rows="10"></textarea>
+
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    
+    <footer>
+        <span>&copy; Yevgeny Stephens 2022</span>
+    </footer>
+
+</body>
+</html>

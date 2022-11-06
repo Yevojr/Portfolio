@@ -1,7 +1,7 @@
 @media (min-width:768px) {
 
     #document {
-        width: 80vw;
+        width: 90vw;
         max-width: 1500px;
         min-width: 150px;
         margin: 0 auto;
@@ -58,10 +58,10 @@
     }
     
     p {
-    font-family: Verdana;
-    font-size: 16px;
-    color:black;
-    font-weight: normal;
+        font-family: Verdana;
+        font-size: 16px;
+        color:black;
+        font-weight: normal;
     }
     
     .yev {
@@ -119,7 +119,8 @@
         margin-top: 20px;
         padding: 10px;
     }
-    
+
+   
     .skills {
         border-style: solid;
         border-radius: 10px;
@@ -157,9 +158,72 @@
         padding: 10px;
     }
 
+    .birdbot2{
+        font-family: Verdana;
+        font-size: 19px;
+        font-style: normal;
+        color: black;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: rgb(244, 21, 21);
+        border-width: 5px;
+        overflow: hidden;
+        margin: 10px;
+        margin-top: 20px;
+        padding: 10px;
+    }
+
     .yevacc2{
         display: flex;
         flex-direction: row;
+        justify-content: space-evenly;
 
     }
+
+    .formField{
+        font-family: Verdana;
+        font-size: 19px;
+        font-style: normal;
+        color: black;
+    }
+
+    button{
+        font-family: Verdana;
+        font-size: 17px;
+        background-color: rgb(10, 7, 155);
+        color: white;
+    }
+    
+    button:hover{
+        background-color: rgb(14, 196, 36);
+        color: black;
+    }
+    
+    button:active{
+        background-color: red;
+        color: lightblue;
+    }
+
+    input[type=text], select, input[type=date], input[type=email]{
+        width: 25%;
+        padding: 10px;
+        box-sizing: border-box;
+        resize: vertical;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    textarea{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        resize: vertical;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    h1.thankyou{
+        font-size: 50px;
+    }
+
 }
